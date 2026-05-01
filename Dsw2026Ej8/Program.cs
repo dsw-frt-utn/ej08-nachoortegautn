@@ -22,10 +22,14 @@ using Dsw2026Ej8;
 //Console.WriteLine(p4.CalcularPromedio(10, null, 8)); // Debería dar 9 (18 / 2)
 // Console.WriteLine(p4.CalcularPromedio(10, null, null)); // Debería dar 0 esto es del problema 4
 
-Problema5 p5 = new Problema5();
+//Problema5 p5 = new Problema5();
 
-    RetailSale minorista = new RetailSale { Importe = 100 };
- WholesaleSale mayorista = new WholesaleSale { Importe = 100 };
+//RetailSale minorista = new RetailSale { Importe = 100 };
+//WholesaleSale mayorista = new WholesaleSale { Importe = 100 };
 
-    Console.WriteLine($"Minorista: {p5.ObtenerImporteFinal(minorista)}"); // Debería dar 100
- Console.WriteLine($"Mayorista: {p5.ObtenerImporteFinal(mayorista)}"); // Debería dar 90
+// Console.WriteLine($"Minorista: {p5.ObtenerImporteFinal(minorista)}"); // Debería dar 100
+//Console.WriteLine($"Mayorista: {p5.ObtenerImporteFinal(mayorista)}"); // Debería dar 90 esto es del problema 5
+
+Console.WriteLine("\n--- Problema 6 ---");
+ Problema6 p6 = new Problema6();
+ Console.WriteLine(p6.NormalizarCodigoProducto("  ab 123 x  "));
